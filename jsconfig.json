@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "components/*":["./src/components/*"],
+      "res/*":["./src/res/*"],
+      "contexts/*":["./src/contexts/*"],
+    }
+  }
+}
