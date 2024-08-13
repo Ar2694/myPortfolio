@@ -2,7 +2,7 @@ import { Avatar, Box, Stack, Typography, styled } from "@mui/material";
 import DevicesIcon from '@mui/icons-material/Devices';
 
 const StyledStack = styled(Stack)(({ theme }) => ({
-    margin: "70px 0 50px 0",
+    margin: "70px 0 40px 0",
     "& .MuiAvatar-root": {
         backgroundColor: theme.palette.primary.main,
         boxShadow: theme.shadows[10],

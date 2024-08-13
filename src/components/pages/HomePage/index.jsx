@@ -22,11 +22,9 @@ export default function HomePage() {
     <PageContainer className="home-page">
       {/* Avatar Container */}
       <HomeAvatar />
-              {/* Social Container */}
-              <HomeSocial />
+      {/* Social Container */}
+      <HomeSocial />
       <Stack className="content-container" spacing={4} >
-
-
         {/* Skill Accordian */}
         <HomeAccordion icon={<ManageAccountsIcon />} text="Skills">
           <SkillCardContent />

@@ -4,8 +4,8 @@ import { grey } from "@mui/material/colors";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "rgba(33, 33, 33, 0.5)",
-      light: "rgba(224, 224, 224, 0.5)",
+      main: "rgba(33, 33, 33, 0.4)",
+      light: "rgba(224, 224, 224, 0.4)",
       contrastText: "#FFFFFF"
     },
     secondary: {
@@ -30,7 +30,13 @@ const theme = createTheme({
     MuiCssBaseline: {
       styleOverrides: {
         body: {
-          background: "#20455C linear-gradient(to right top, #020c11, #08161c, #0a1d28, #0a2534, #092d40, #193d53, #284e66, #375f7a, #577e9a, #779fba, #98c1dc, #bae4ff);",
+          background: `#20455C linear-gradient(
+            315deg,
+            hsl(212deg 83% 5%) 0%,
+            hsl(212deg 83% 19%) 33%,
+            hsl(212deg 88% 44%) 67%,
+            hsl(212deg 96% 82%) 100%
+          )`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           minHeight: "100vh",

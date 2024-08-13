@@ -27,7 +27,7 @@ const StyledAccordion = styled(Accordion)(({ theme }) => ({
     fill: theme.palette.primary.contrastText,
   },
   "&.Mui-expanded:first-of-type": {
-    marginTop: "24px"
+    marginTop: "0"
   },
   "& .MuiAccordionSummary-root": {
     borderRadius: theme.shape.borderRadius

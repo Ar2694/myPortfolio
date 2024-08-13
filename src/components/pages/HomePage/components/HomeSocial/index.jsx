@@ -7,12 +7,14 @@ import { Instagram } from '@mui/icons-material';
 export default function HomeSocial(props) {
     return (
         <Stack sx={{
-            marginBottom:"20px",
+            marginBottom:"30px",
             "& .icon-button": {
                 color: "#FFF",
+                padding: "0px 5px"
             },
             "& .icon": {
-                fontSize: "2rem"
+                fontSize: "2rem",
+      
             }
 
         }} direction="row" justifyContent="center">

@@ -5,16 +5,14 @@ import CloseIcon from '@mui/icons-material/Close';
 
 const StyledDialog = styled(Dialog)(({ theme }) => ({
     "& .MuiPaper-root": {
-        backgroundColor: "rgba(33, 33, 33, 1.0)",
+        backgroundColor: "rgba(33, 33, 33, 0.95)",
         color: "#FFF",
         borderRadius: theme.shape.borderRadius
     },
     "& .icon-button, & .close-button": {
         color: "#FFF",
-
     },
     "& .icon-button": {
-
         padding: 0
     },
     "& .icon-button:hover, & .close-button:hover": {
@@ -23,11 +21,9 @@ const StyledDialog = styled(Dialog)(({ theme }) => ({
     },
     "& .icon-button:hover": {
         color:  "rgba(255, 255, 255, 0.5)",
-    
     },
     "& .MuiDialogActions-root": {
         padding: "20px 24px",
-    
     },
 }));
 
@@ -38,7 +34,6 @@ export default function DiagramModal(props) {
         </DialogProvider>
     )
 }
-
 
 function DiagramModalContent(props) {
     const { dialog, close } = useDialogContext();
